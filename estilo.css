@@ -1,0 +1,845 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@media (min-width: 992px) {
+
+h1 {
+		font-family: 'Open Sans', sans-serif;
+	font-size: 1.8rem;
+
+}
+
+h2 {
+		font-family: 'Open Sans', sans-serif;
+	font-size: 1.4rem;
+
+}
+
+
+h3 {
+		font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+
+}
+
+
+h4 {
+		font-family: 'Open Sans', sans-serif;
+	font-size: 0.8rem;
+
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+	min-height: 100%; 
+}
+
+.grid_container{
+	display: grid;
+	gap: 5px;
+	grid-template: 
+	"header" 100px
+	"navbar" 50px
+	"main"	auto
+	"footer" 20px
+	;
+}
+
+.header{
+	grid-area: header;
+	background-color: white;
+	text-align: center;
+}
+
+
+.navbar{
+	grid-area: navbar;
+	background-color:#1B1464;
+}
+
+.main{
+	grid-area: main;
+	background: linear-gradient(to top, #12CBC4, white)}
+
+
+
+.footer{
+	grid-area: footer;
+	background-color: #1B1464;
+}
+
+
+#menu ul {
+	text-align: center;
+	margin-top: 1%;
+   
+}
+
+
+
+
+#menu li {
+	text-decoration: none;
+	color: white;
+	display:inline;
+     padding-left:3%;
+     padding-right:4%;
+
+   
+}
+
+#menu li a {
+	text-align: center;
+	align-content: center;
+	text-decoration: none;
+	color: white;
+	display:inline;
+     padding-left:10px;
+     padding-right:10px;
+     padding-top: 10px;
+     
+}
+
+
+
+
+
+.main #sectiona {
+height: 40%;
+width: 100%;
+
+}
+
+.main .fotoa {
+opacity: 20%;
+text-align: center;
+margin-top: 1%;
+
+
+}
+
+.main .fotob {
+margin-left: 5%;
+border-radius: 35px;
+box-shadow: 0px 0px 10px #fff;
+float: left;}
+
+.main #superpuesto {
+	 position: absolute;
+    top: 40%;
+    left: 10px;
+    right: 10px;
+    margin: 5%;
+    text-align: center;
+    color: #1B1464 ;
+    text-shadow: 1px 1px 2px white;
+
+
+}
+
+
+
+.main #alcostado {
+    margin-left: 15%;
+    padding-left: 15%;
+    margin-right: 8%;
+    padding-right: 8%;
+    margin-top: 5%;
+    text-align: center;
+    color: #1B1464 ;
+    text-shadow: 1px 1px 2px white;
+
+
+}
+
+hr {background-color: #1B1464 ;
+width: 100%;
+height: 40px;}
+
+
+  .boton{
+        font-size:20px;
+        font-weight:bold;
+        color:white;
+        background:hotpink;
+        border:0px;
+        width:300px;
+        height:35px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px #fff;
+
+       }
+
+
+ .tituloa {
+
+    margin-left: 3%;
+    padding-left: 4%;
+  	font-weight:bold;
+    color: #1B1464 ;
+    text-shadow: 1px 1px 2px white;
+
+
+
+       }
+
+
+
+
+       ____________________________
+
+
+ article #nosotrosa {
+
+       	width: 24%;
+       	height: 80%;
+       	background-color: red;
+       	float: left;
+
+       }
+     
+ article #nosotrosb {
+
+       	width: 24%;
+       	height: 80%;
+      	padding: 1%;
+       	float: left;
+       	margin-left: 2%;
+       	text-align: center;
+
+       }
+
+
+        article #nosotrosc {
+
+       	width: 24%;
+       	height: 80%;
+      		padding: 1%;
+       	float: left;
+       	text-align: center;
+
+       }
+
+        article #nosotrosd {
+
+       	width: 24%;
+       	height: 80%;
+       	padding: 1%;
+       	float: left;
+       	text-align: center;
+
+       }
+
+        article #nosotrose {
+
+       	width: 24%;
+       	height: 80%;
+       	padding: 1%;
+       	float: left;
+       	text-align: center;
+
+       }
+
+     .titulonosotros {
+       	text-align: center;
+       	 text-shadow: 1px 1px 2px grey;
+       	 color: #1B1464;
+       }
+
+       .titulotrata {
+       	text-align: center;
+       	 text-shadow: 2px 2px 3px lightgrey;
+       	 color: #1B1464;
+       }
+
+       .testotrata {
+       	text-align: center;
+       	 text-shadow: 2px 2px 3px white; 
+       	 color: #1B1464;
+       	 padding-left: 3%;
+       }
+
+
+
+       article #bronceado {
+       	text-align: center;
+       	width: 100%;
+       	height: 24%;
+       	 	clear: both;
+       	 		padding: 1%;
+       	 		padding-left: 3%;
+       	 		padding-right: 10%;
+
+
+
+
+
+       }
+
+       .transglow {
+       	transition: all 0.3s ease;
+       }
+
+       .transglow:hover {
+       	transform:scale(1.5);
+       }
+
+       .fotocote {float: left;
+       	margin-left: 5%;
+       	border-radius: 30px;
+       	box-shadow: 0px 0px 15px #fff;
+
+	transition: all 0.3s ease;}
+
+
+	 .fotocote:hover{
+	border-radius: 50%;
+	box-shadow: 0px 0px 15px navy;
+}
+
+
+
+       article #pelo {
+       	text-align: center;
+       	width: 100%;
+       	height: 24%;
+       	clear: both;
+       		padding: 1%;
+       		padding-left: 3%;
+       	 		padding-right: 10%;
+
+
+       }
+  article #unias {
+       	text-align: center;
+       	width: 100%;
+       	height: 24%;
+       	 	clear: both;
+       	 		padding: 1%;
+       	 		padding-left: 3%;
+       	 		padding-right: 10%;
+
+
+
+       }
+
+         article #rostro {
+       	text-align: center;
+       	width: 100%;
+       	height: 24%;
+       	 	clear: both;
+       	 padding: 1%;
+       	 padding-bottom: 15%;
+       	 margin-bottom: 15%;
+       	 padding-left: 3%;
+       	 		padding-right: 10%;
+
+
+       }
+
+       .botonturno {
+       	text-decoration: none;
+       	color: white;
+        color:white;
+        background:hotpink;
+        border:20px;
+        padding: 0.5%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #fff;}
+
+
+        #form input, textarea {
+	width:100%;
+	border: 1px solid #000;
+	background-color: #FFF;
+	color: navy;
+	font-size: 1em;
+	 box-shadow: 0px 0px 10px #fff;
+	 border-radius: 5px;
+}
+
+#form {
+	width: 100%;
+
+}
+#cont_texto {
+	float: left;
+	width: 50%;
+	background:hotpink;
+	margin-left: 5%;
+	margin-bottom: 3%;
+	font-size:0.9em;
+	width: 400px;
+	color: #FFF;
+	padding: 2%;
+	
+	box-shadow: 0px 0px 10px #fff;
+	 border-radius: 15px;
+}
+
+#cont_texto h1 {
+	
+	color: white;
+}
+
+
+
+#faqs {
+	width: 50%;
+	float: right;
+	padding-right: 3%;
+	margin-right: 3%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+	@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+	h1 {
+		font-family: 'Open Sans', sans-serif;
+	font-size: 1.4rem; }
+
+h2 {
+		font-family: 'Open Sans', sans-serif;
+	font-size: 1.2rem;
+
+}
+
+
+h3 {
+		font-family: 'Open Sans', sans-serif;
+	font-size: 0.9rem;
+
+}
+
+
+
+
+
+
+
+	.grid_container{
+		grid-template: 
+		"header 	header 	header" 	100px 
+		"navbar 	navbar navbar" 	50px
+		" 	main  main	main" 	auto
+		"footer 	footer 	footer" 	100px /
+		 400px 		auto 	200px;
+	}
+
+
+
+
+
+.header{
+	grid-area: header;
+	background-color: white;
+	text-align: center;
+}
+
+
+.navbar{
+	grid-area: navbar;
+	background-color:#1B1464;
+}
+
+.main{
+	grid-area: main;
+	background: linear-gradient(to top, #12CBC4, white)}
+
+
+
+.footer{
+	grid-area: footer;
+	background-color: #1B1464;
+}
+
+
+#menu ul {
+	text-align: center;
+	margin-top: 1%;
+   
+}
+
+
+
+
+#menu li {
+	text-decoration: none;
+	color: white;
+	display:inline;
+     padding-left:2%;
+     padding-right:4%;
+
+   
+}
+
+#menu li a {
+	text-align: center;
+	align-content: center;
+	text-decoration: none;
+	color: white;
+	display:inline;
+     padding-left:10px;
+     padding-right:10px;
+     padding-top: 10px;
+     font-family: 'Open Sans'
+     
+}
+
+
+
+
+
+.main #sectiona {
+height: 40%;
+width: 100%;
+
+}
+
+.main .fotoa {
+opacity: 20%;
+text-align: center;
+margin-top: 1%;
+
+
+}
+
+.main .fotob {
+margin-left: 5%;
+border-radius: 35px;
+box-shadow: 0px 0px 10px #fff;
+float: left;}
+
+.main #superpuesto {
+	 position: absolute;
+    top: 40%;
+    left: 10px;
+    right: 10px;
+    margin: 5%;
+    text-align: center;
+    color: #1B1464 ;
+    text-shadow: 1px 1px 2px white;
+    font-family: 'Open Sans'
+
+
+}
+
+
+
+.main #alcostado {
+    margin-left: 25%;
+    padding-left: 19%;
+    margin-right: 8%;
+    padding-right: 8%;
+    margin-top: 5%;
+    text-align: center;
+    color: #1B1464 ;
+    text-shadow: 1px 1px 2px white;
+
+
+}
+
+hr {background-color: #1B1464 ;
+width: 100%;
+height: 40px;}
+
+
+  .boton{
+        font-size:20px;
+        font-weight:bold;
+        color:white;
+        background:hotpink;
+        border:0px;
+        width:300px;
+        height:35px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px #fff;
+        font-family: 'Open Sans'
+
+       }
+
+
+ .tituloa {
+
+    margin-left: 3%;
+    padding-left: 4%;
+  	font-weight:bold;
+    color: #1B1464 ;
+    text-shadow: 1px 1px 2px white;
+    font-family: 'Open Sans'
+
+
+
+       }
+
+
+
+
+       ____________________________
+
+
+
+     
+ article #nosotrosb {
+       	width: 100%;
+      	padding: 2%;
+       	text-align: center;
+       	height: 25%;
+       	font-family: 'Open Sans'
+       }
+
+       .centrate {margin-left: 30%;}
+
+
+
+        article #nosotrosc {
+
+       		width: 100%;
+      	padding: 2%;
+     
+       	text-align: center;
+       	height: 25%;
+       	font-family: 'Open Sans'
+
+       }
+
+        article #nosotrosd {
+
+     	width: 100%;
+      	padding: 2%;
+     
+       	text-align: center;
+       	height: 25%;
+       	font-family: 'Open Sans'
+
+       }
+
+        article #nosotrose {
+
+       		width: 100%;
+      	padding: 2%;
+     
+       	text-align: center;
+       	height: 25%;
+       	font-family: 'Open Sans'
+
+       }
+
+     .titulonosotros {
+       	text-align: center;
+       	 text-shadow: 1px 1px 2px grey;
+       	 color: #1B1464;
+       	 font-family: 'Open Sans'
+       }
+
+       .titulotrata {
+       	text-align: center;
+       	 text-shadow: 2px 2px 3px lightgrey;
+       	 color: #1B1464;
+       	 font-family: 'Open Sans'
+       }
+
+       .testotrata {
+       	text-align: center;
+       	 text-shadow: 2px 2px 3px white; 
+       	 color: #1B1464;
+       	 padding-left: 3%;
+       	 font-family: 'Open Sans'
+       	 font-size: 0.8rem;
+       }
+
+
+
+       article #bronceado {
+       	text-align: center;
+       	width: 100%;
+       	height: 24%;
+       	 	clear: both;
+       	 		padding: 1%;
+       	 		padding-left: 3%;
+       	 		padding-right: 10%;
+
+
+
+
+
+
+       }
+
+       .transglow {
+       	transition: all 0.3s ease;
+       }
+
+       .transglow:hover {
+       	transform:scale(1.5);
+       }
+
+       .fotocote {
+       	text-align: center;
+       	margin-left: 5%;
+       	border-radius: 30px;
+       	box-shadow: 0px 0px 15px #fff;
+
+	transition: all 0.3s ease;}
+
+
+	 .fotocote:hover{
+	border-radius: 50%;
+	box-shadow: 0px 0px 15px navy;
+}
+
+
+
+       article #pelo {
+       	text-align: center;
+       	width: 100%;
+       	height: 24%;
+       	clear: both;
+       		padding: 1%;
+       		padding-left: 3%;
+       	 		padding-right: 10%;
+       	 		font-size: 0.8rem;
+
+
+       }
+  article #unias {
+  		font-size: 0.8rem;
+       	text-align: center;
+       	width: 100%;
+       	height: 24%;
+       	 	clear: both;
+       	 		padding: 1%;
+       	 		padding-left: 3%;
+       	 		padding-right: 10%;
+
+
+
+       }
+
+         article #rostro {
+       	text-align: center;
+       	width: 100%;
+       	height: 24%;
+       	 	clear: both;
+       	 padding: 1%;
+       	 padding-bottom: 15%;
+       	 margin-bottom: 15%;
+       	 padding-left: 3%;
+       	 		padding-right: 10%;
+       	 		font-size: 0.8rem;
+
+
+       }
+
+       .botonturno {
+       	text-decoration: none;
+       	color: white;
+        color:white;
+        background:hotpink;
+        border:20px;
+        padding: 0.5%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #fff;
+    	 font-family: 'Open Sans';
+    	 }
+
+
+        #form input, textarea {
+	width:100%;
+	border: 1px solid #000;
+	background-color: #FFF;
+	color: navy;
+	font-size: 1em;
+	 box-shadow: 0px 0px 10px #fff;
+	 border-radius: 5px;
+	 font-family: 'Open Sans';
+}
+
+#form {
+	width: 100%;
+
+
+}
+#cont_texto {
+
+	margin-left: 20%;
+
+	width: 100%;
+	background:hotpink;
+	margin-left: 25%;
+	margin-bottom: 3%;
+	font-size:0.9em;
+	width: 400px;
+	color: #FFF;
+	padding: 2%;
+	text-align: center;
+	box-shadow: 0px 0px 10px #fff;
+	 border-radius: 15px;
+	 font-family: 'Open Sans'
+}
+
+#cont_texto h1 {
+	
+	color: white;
+}
+
+
+
+#faqs {
+	width: 100%;
+	margin: 5%;
+	padding-right: 10%;
+}
+
+
+
+
+
+
+
+
+}
+
+
+________________________________________ ELMAS CHICO !!!!!
+
+
+
+
